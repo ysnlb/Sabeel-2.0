@@ -1,21 +1,28 @@
 <div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
+  <h1>Sabeel 2.0</h1>
+  <p>A modern, robust, and beautifully designed Android application.</p>
 </div>
 
-# Run and deploy your AI Studio app
+## Overview
 
-This contains everything you need to run your app locally.
-
-View your app in AI Studio: https://ai.studio/apps/0b660281-8143-43c5-a259-2b92695aa73a
+This repository contains the complete source code for **Sabeel 2.0**. This guide provides everything you need to build and run the application locally on your machine.
 
 ## Run Locally
 
-**Prerequisites:**  [Android Studio](https://developer.android.com/studio)
+**Prerequisites:** You will need the latest version of [Android Studio](https://developer.android.com/studio) installed on your system.
 
+### Build Instructions
 
-1. Open Android Studio
-2. Select **Open** and choose the directory containing this project
-3. Allow Android Studio to fix any incompatibilities as it imports the project.
-4. Create a file named `.env` in the project directory and set `GEMINI_API_KEY` in that file to your Gemini API key (see `.env.example` for an example)
-5. Remove this line from the app's `build.gradle.kts` file: `signingConfig = signingConfigs.getByName("debugConfig")`
-6. Run the app on an emulator or physical device
+1. **Open Android Studio**.
+2. Select **File > Open** (or **Open an existing Project** on the welcome screen) and select the directory containing this cloned repository.
+3. Allow Android Studio to import the project, download the necessary Gradle dependencies, and finish the initial sync.
+4. *Optional:* If you encounter signing configuration errors, ensure you remove or update any specific `signingConfig` blocks in the app-level `build.gradle.kts` file that you do not have the keystores for.
+5. Select your preferred target (an Android Emulator or a connected physical device).
+6. Click the **Run** button (Shift + F10) to build and deploy the app.
+
+## Tech Stack
+
+* **Language:** Kotlin
+* **UI Toolkit:** Jetpack Compose
+* **Architecture:** MVVM (Model-View-ViewModel) & Clean Architecture
+* **Asynchronous Programming:** Coroutines & Flows
