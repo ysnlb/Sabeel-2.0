@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Sabeel</string>
+    <string name="fajr">الفجر</string>
+    <string name="sunrise">الشروق</string>
+    <string name="dhuhr">الظهر</string>
+    <string name="asr">العصر</string>
+    <string name="maghrib">المغرب</string>
+    <string name="isha">العشاء</string>
+    
+    <!-- General UI -->
+    <string name="location">الموقع</string>
+    <string name="mute">كتم الصوت</string>
+    <string name="unmute">إلغاء كتم الصوت</string>
+    <string name="decrease">تقليل</string>
+    <string name="increase">زيادة</string>
+
+    <!-- Settings -->
+    <string name="settings_title">الإعدادات</string>
+    <string name="settings_general">عام</string>
+    <string name="settings_language">اللغة</string>
+    <string name="settings_theme">المظهر</string>
+    <string name="settings_location">الموقع</string>
+    <string name="settings_mode">الوضع</string>
+    <string name="settings_search_city">البحث عن مدينة</string>
+    <string name="settings_current_city">المدينة الحالية: %s</string>
+    <string name="settings_notifications">الإشعارات</string>
+    <string name="settings_sound_type">نوع الصوت</string>
+    <string name="settings_prayer_adjustments">تعديلات الصلاة (دقائق)</string>
+    
+    <!-- Adhkar Categories -->
+    <string name="category_morning">الصباح</string>
+    <string name="category_evening">المساء</string>
+    <string name="category_after_prayer">بعد الصلاة</string>
+
+    <!-- Enums Mappings -->
+    <string name="lang_system_default">النظام الافتراضي</string>
+    <string name="lang_arabic">العربية</string>
+    <string name="lang_english">الإنجليزية</string>
+    <string name="lang_french">الفرنسية</string>
+    
+    <string name="theme_system_default">النظام الافتراضي</string>
+    <string name="theme_light">فاتح</string>
+    <string name="theme_dark">داكن</string>
+    
+    <string name="loc_mode_automatic">تلقائي</string>
+    <string name="loc_mode_manual">يدوي</string>
+    
+    <string name="notif_standard_chime">تنبيه قياسي</string>
+    <string name="notif_adhan">أذان</string>
+    <string name="notif_mute">صامت</string>
+    <string name="nav_prayer_times">أوقات الصلاة</string>
+    <string name="nav_adhkar">الأذكار</string>
+    <string name="nav_settings">الإعدادات</string>
+</resources>

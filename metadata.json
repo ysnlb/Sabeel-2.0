@@ -1,0 +1,6 @@
+{
+  "name": "Sabeel",
+  "description": "A modern, minimalist prayer times and adhkar application.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

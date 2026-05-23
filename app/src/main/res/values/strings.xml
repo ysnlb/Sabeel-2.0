@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Sabeel</string>
+    <string name="fajr">Fajr</string>
+    <string name="sunrise">Sunrise</string>
+    <string name="dhuhr">Dhuhr</string>
+    <string name="asr">Asr</string>
+    <string name="maghrib">Maghrib</string>
+    <string name="isha">Isha</string>
+    
+    <!-- General UI -->
+    <string name="location">Location</string>
+    <string name="mute">Mute</string>
+    <string name="unmute">Unmute</string>
+    <string name="decrease">Decrease</string>
+    <string name="increase">Increase</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_general">General</string>
+    <string name="settings_language">Language</string>
+    <string name="settings_theme">Theme</string>
+    <string name="settings_location">Location</string>
+    <string name="settings_mode">Mode</string>
+    <string name="settings_search_city">Search City</string>
+    <string name="settings_current_city">Current City: %s</string>
+    <string name="settings_notifications">Notifications</string>
+    <string name="settings_sound_type">Sound Type</string>
+    <string name="settings_prayer_adjustments">Prayer Adjustments (Minutes)</string>
+    
+    <!-- Adhkar Categories -->
+    <string name="category_morning">Morning</string>
+    <string name="category_evening">Evening</string>
+    <string name="category_after_prayer">After Prayer</string>
+
+    <!-- Enums Mappings -->
+    <string name="lang_system_default">System Default</string>
+    <string name="lang_arabic">Arabic</string>
+    <string name="lang_english">English</string>
+    <string name="lang_french">French</string>
+    
+    <string name="theme_system_default">System Default</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+    
+    <string name="loc_mode_automatic">Automatic</string>
+    <string name="loc_mode_manual">Manual</string>
+    
+    <string name="notif_standard_chime">Notification</string>
+    <string name="notif_adhan">Adhan</string>
+    <string name="notif_mute">Mute</string>
+    <string name="nav_prayer_times">Prayer Times</string>
+    <string name="nav_adhkar">Adhkar</string>
+    <string name="nav_settings">Settings</string>
+</resources>
